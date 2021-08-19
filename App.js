@@ -2,7 +2,7 @@ import React, {Component,useState,useEffect} from "react";
 
 const  App = () => {
   //state
-  const[url,setUrl] = useState('http://hn.algolia.com/api/v1/search?query=react')
+  const[url,setUrl] = useState('http://hn.algolia.com/api/v1/search?query=react') // https://newsapi.org/v2/top-headlines?country=br&apiKey=API_KEY API Brasilieira
   const [news,setNews] = useState([]);
   const [searchQuery, setSearchQuery] = useState('react')
   const [loading,setLoading] = useState(false);
